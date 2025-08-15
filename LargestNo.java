@@ -1,4 +1,3 @@
-package Array_Dsa;
 import java.util.Scanner;
 
 public class LargestNo{
