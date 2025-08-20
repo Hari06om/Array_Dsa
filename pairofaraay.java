@@ -4,8 +4,7 @@ public class pairofaraay {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the elements of the array: ");
         for(int i= 0;i<n;i++){
-            arr[i]= sc.nextInt();
-            
+            arr[i]= sc.nextInt();   
         }
     }
     public static void display(int arr[],int n){
@@ -14,8 +13,6 @@ public class pairofaraay {
             System.out.print(arr[i] + " ");
         }
     }
-
-
     public static void pairofaraay(int arr[],int n){
         int count = 0;
         for(int i = 0; i < n; i++){
@@ -28,11 +25,7 @@ public class pairofaraay {
         }
         if(count == 0){
             System.out.println("No pairs found with sum zero.");
-        }
-
-
-
-        
+        }       
     }   
      public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
@@ -44,6 +37,6 @@ public class pairofaraay {
         System.out.println();
         pairofaraay(arr, n);
         System.out.println("Thank you for using this program");
-        
     }
 }
+
